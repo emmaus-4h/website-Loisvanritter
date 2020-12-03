@@ -1,9 +1,11 @@
 /* Basislayout */
 
+/* Basislayout */
+
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: rgb(206, 161, 231);  
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
@@ -23,7 +25,7 @@ article {
 
 
 header {
-    color: skyblue;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -41,12 +43,17 @@ img.zweefLinks {
     margin-right: 15px;
 }
 
+img.zweefRechts {
+    float: right;
+    margin-left: 15px;
+}
+
 .smalltext {
     font-size: 0.7em;
 }
 
 a {
-    color: skyblue;
+    color: rgb(139, 86, 207);
     text-decoration: none;
 }
 
@@ -83,7 +90,3 @@ nav li a:hover {
 nav li a.active {
     background-color: skyblue;
 }
-
-
-
-
